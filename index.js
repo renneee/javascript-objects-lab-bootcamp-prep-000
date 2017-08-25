@@ -24,4 +24,3 @@ function deleteFromObjectByKey (recipes, amount) {
   delete newRecipe.amount
   return newRecipe
 }
-
