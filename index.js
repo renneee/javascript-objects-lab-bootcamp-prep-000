@@ -31,4 +31,3 @@ function destructivelyDeleteFromObjectByKey (recipes, amount) {
   delete recipes.amount
   return recipes
 }
-
