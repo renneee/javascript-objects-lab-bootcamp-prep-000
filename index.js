@@ -26,3 +26,9 @@ function deleteFromObjectByKey (recipes, amount) {
 
   return newRecipe
 }
+
+function destructivelyDeleteFromObjectByKey (recipes, amount) {
+  delete recipes.amount
+  return recipes
+}
+
